@@ -5,11 +5,7 @@
     --section-padding: 60px;
     --section-background: #6a593c;
     --Title-color: #8c7c4c;
-    --S-color: #9a8452;
-    --T-color: #4b4434;
     --Section2-color: #544c34;
-    --Fi-color: #3c342c;
-    --Si-color: #2c2c24;
 }
 
 ::selection {
@@ -61,6 +57,26 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: var(--secondary-color);
+    bottom: 1vh;
+    right: 1vw;
+    text-decoration: none;
+    text-align: center;
+    z-index: 100;
+    line-height: 32px;
+    color: var(--main-color);
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.gotopbtn:hover {
+    background-color: transparent;
 }
 
 /* Small Screens */
