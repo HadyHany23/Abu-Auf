@@ -290,7 +290,16 @@ table tr:hover {
 
 /* Products Section Start */
 .products {
+    padding-top: 10px;
     background-color: var(--Section2-color);
+    margin-bottom: 100px;
+}
+
+.products h2 {
+    font-size: 100px;
+    background-color: var(--Title-color);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .products .container {
@@ -306,11 +315,12 @@ table tr:hover {
     border: 3px solid var(--secondary-color);
 }
 
-.products .card .image img{
+.products .card .image img {
     max-width: 100%;
 }
 
-.products .card .product-title, .product-price {
+.products .card .product-title,
+.product-price {
     font-size: 20px;
     text-align: center;
     text-transform: capitalize;
@@ -320,4 +330,5 @@ table tr:hover {
     padding-left: 10px;
     text-decoration: line-through;
 }
+
 /* Products Sedtion End */
